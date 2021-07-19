@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+
+  <div id="upsign">
+
+    <div id="heading">
+      <h1>Registration Form</h1>
+      <p>Dear Volunteer/Member, we value the role of volunteers/members in our work and hope this turns out to be a fulfilling
+           and meaningful experience for you as well.</p>
+    </div>
+    <div class="progress-bar">
+      <div class="step">
+        <div class="bullet"><span>1</span></div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <div class="bullet"><span>2</span></div>
+          <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <div class="bullet"><span>3</span></div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <div class="bullet"><span>4</span></div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <div class="bullet"><span>5</span></div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <div class="bullet"><span>6</span></div>
+        <div class="check fas fa-check"></div>
+      </div>
+    </div>
+    <div id="regForm">
+      <form action="#">
+
+        <div class="panels slidepanels">
+          <div class="title">
+            <h4>Personal</h4>
+          </div>
+          <div class="field">
+            <div class="label">First Name</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Last Name</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Date of Birth</div>
+            <input type="date" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Gender</div>
+          	<select class="content">
+              <option value="">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <div class="label">Nationality</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field nextBtn">
+            <button>Next</button>
+          </div>
+
+        </div>
+
+        <div class="panels">
+          <div class="title">
+            <h4>Contact</Cona></h4>
+          </div>
+          <div class="field">
+            <div class="label">Present Address</div>
+            <textarea class="content-add"></textarea>
+          </div>
+          <div class="field">
+            <input type="checkbox" name="" class="posi">Same as Present Address  <br>
+          </div>
+          <div class="field">
+              <div class="label">Permanent Address</div>
+              <textarea class="content-add"></textarea>
+          </div>
+          <div class="field">
+            <div class="label">State</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Country</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Phone Number</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Email</div>
+            <input type="email" class="content">
+          </div>
+          <div class="field btns">
+            <button class=" prev-1 prev">Previous</button>
+            <button class=" next-1 next">Next</button>
+          </div>
+
+        </div>
+
+        <div class="panels">
+          <div class="title">
+            <h4>Education</h4>
+          </div>
+          <div class="field">
+            <div class="label">Course</div>
+            <input type="text" class="content" placeholder="Degree(held/pursuing)">
+          </div>
+          <div class="field">
+            <div class="label">University</div>
+            <input type="text" class="content">
+          </div>
+
+          <div class="field btns">
+            <button class=" prev-2 prev">Previous</button>
+            <button class=" next-2 next">Next</button>
+          </div>
+        </div>
+
+        <div class="panels">
+          <div class="title">
+            <h4>Work Experience</h4>
+          </div>
+          <div class="field">
+            <div class="label">Years of Experience</div>
+            <input type="text" class="content" placeholder="No of Years">
+          </div>
+          <div class="field">
+            <div class="label">Industry/IT sector</div>
+            <input type="text" class="content" placeholder="Main Industry">
+          </div>
+
+          <div class="field btns">
+            <button class=" prev-3 prev">Previous</button>
+            <button class=" next-3 next">Next</button>
+          </div>
+        </div>
+
+        <div class="panels">
+          <div class="title">
+            <h4>Language Profeciency</h4>
+          </div>
+          <div class="field">
+            <div class="label">Languages Known</div>
+            <input type="text" class="content" placeholder="Languages that you can speak & write">
+          </div>
+          <div class="field">
+            <div class="label">IT skill</div>
+            <input type="text" class="content" placeholder="IT skill">
+          </div>
+
+          <div class="field btns">
+            <button class=" prev-4 prev">Previous</button>
+            <button class=" next-4 next">Next</button>
+          </div>
+        </div>
+
+        <div class="panels">
+          <div class="title">
+            <h4>Area of Interest</h4>
+          </div>
+          <div class="field">
+            <div class="label">Programming Area</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Work Area</div>
+            <input type="text" class="content">
+          </div>
+          <div class="field">
+            <div class="label">Days/Week & Hour/Day</div>
+            <input type="number" class="cont a" max="8" min="1" value="1">
+            <input type="number" class="cont b" max="10" min="1" value="1">
+          </div>
+
+          <div class="field btns">
+            <button class=" prev-5 prev">Previous</button>
+            <button class=" submit next">Submit</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js">
+
+
+</script>
+</body>
+</html>
